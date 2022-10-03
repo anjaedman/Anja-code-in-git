@@ -1,0 +1,78 @@
+# Skapad av https://www.toptal.com/developers/gitignore/api/macos,windows,linux
+# Redigera på https://www.toptal.com/developers/gitignore?templates=macos,windows,linux
+
+### Linux ###
+*~
+
+# temporära filer som kan skapas om en process fortfarande har ett handtag öppet för en raderad fil
+.fuse_hidden*
+
+# KDE-kataloginställningar
+.katalog
+
+# Linux papperskorgen mapp som kan visas på valfri partition eller disk
+.Skräp-*
+
+# .nfs-filer skapas när en öppen fil tas bort men fortfarande används
+.nfs*
+
+### Mac OS ###
+# Allmänt
+.DS_Store
+.AppleDouble
+.LSOöverskrida
+
+# Ikonen måste sluta med två \r
+Ikon
+
+
+# Miniatyrer
+._*
+
+# Filer som kan visas i roten av en volym
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+. Papperskorgen
+.VolumeIcon.icns
+.com.apple.timemachine.inte närvarande
+
+# Kataloger som potentiellt skapas på fjärr-AFP-delning
+.AppleDB
+.AppleDesktop
+Nätverkspapperskorgen
+Tillfälliga föremål
+.apdisk
+
+### macOS Patch ###
+# iCloud-genererade filer
+*.icloud
+
+### Windows ###
+# Windows-miniatyrcachefiler
+Thumbs.db
+Thumbs.db:krypterar
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump fil
+*.stackdump
+
+# Mappkonfigurationsfil
+[Dd]esktop.ini
+
+# Papperskorgen används på filresurser
+$RECYCLE.BIN/
+
+# Windows Installer-filer
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows-genvägar
+*.lnk
+
+# Slut på https://www.toptal.com/developers/gitignore/api/macos,windows,linux
